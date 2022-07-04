@@ -1,0 +1,1 @@
+This is a simple calculator made during my practice sessions. It is made with C language.
