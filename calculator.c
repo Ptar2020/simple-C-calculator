@@ -1,28 +1,12 @@
 #include <stdio.h>
 
-int add(int a,int b)
-{
-    int ans = a + b;
-    return ans;
-}
+/*Function prototypes*/
+int add(int a,int b);
+int divide(int a,int b);
+int subtract(int a, int b);
+int square(int a);
 
-int divide(int a,int b)
-{
-    int ans = a / b;
-    return ans;
-}
-
-
-int subtract(int a, int b)
-{
-    int ans = a - b;
-    return ans;
-}
-int square(int a)
-{
-    int ans = a * a;
-    return ans;
-}
+/*The main function*/
 int main()
 {
     char a;
@@ -73,6 +57,34 @@ int main()
     {
         printf("Invalid entry\n");
     }
-    //return 0;
+    return (0);
+}
+
+/*Gets the sum two numbers*/
+int add(int a,int b)
+{
+    int ans = a + b;
+    return ans;
+}
+
+/*Gets the division two numbers*/
+int divide(int a,int b)
+{
+    int ans = a / b;
+    return ans;
+}
+
+/*Gets the difference in two numbers*/
+int subtract(int a, int b)
+{
+    int ans = a - b;
+    return ans;
+}
+
+/*Gets the square of two numbers*/
+int square(int a)
+{
+    int ans = a * a;
+    return ans;
 }
 
